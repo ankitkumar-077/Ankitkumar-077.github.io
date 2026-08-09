@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ankit Kumar — Production Technician — NextStar Energy
+Windsor, Ontario | 2024–Present
+
+Production Technician working in EV battery manufacturing, supporting production operations, equipment monitoring, quality checks, material handling, troubleshooting, documentation, and safety compliance. Collaborate with production, maintenance, and quality teams to maintain safe and efficient manufacturing operations..">
+  <meta name="author" content="Ankit Kumar">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Ankit Kumar |Production Technician ">
+  <meta property="og:description" content="Professional profile, experience, skills and contact links for Ankit Kumar.">
+  <meta property="og:type" content="website">
+  <title>Ankit Kumar | Production Technician </title>
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #647084;
+      --line: #e5e9f0;
+      --accent: #172033;
+      --accent2: #334155;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+    }
+    a { color: inherit; }
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255,255,255,.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner {
+      max-width: 1080px;
+      margin: auto;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand { font-weight: 800; letter-spacing: .02em; }
+    .nav-links { display: flex; gap: 20px; flex-wrap: wrap; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 14px; }
+    .nav-links a:hover { color: var(--text); }
+    .hero {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 84px 24px 64px;
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-size: clamp(44px, 7vw, 76px);
+      line-height: .98;
+      margin: 0 0 20px;
+      letter-spacing: -.055em;
+    }
+    .tagline {
+      font-size: clamp(20px, 3vw, 28px);
+      color: var(--accent2);
+      margin: 0 0 20px;
+      font-weight: 600;
+    }
+    .intro { color: var(--muted); max-width: 620px; font-size: 17px; }
+    .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+      border: 1px solid var(--line);
+      background: white;
+    }
+    .button.primary { background: var(--accent); color: white; border-color: var(--accent); }
+    .portrait-wrap { display: flex; justify-content: center; }
+    .portrait {
+      width: min(390px, 90vw);
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      object-position: center 43%;
+      border-radius: 28px;
+      box-shadow: 0 25px 60px rgba(23,32,51,.16);
+    }
+    section { max-width: 1080px; margin: 0 auto; padding: 72px 24px; }
+    .section-title { font-size: 32px; letter-spacing: -.03em; margin: 0 0 14px; }
+    .section-subtitle { color: var(--muted); margin: 0 0 34px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 26px;
+    }
+    .card h3 { margin: 0 0 8px; font-size: 20px; }
+    .card p { margin: 0; color: var(--muted); }
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skill {
+      background: white;
+      border: 1px solid var(--line);
+      padding: 10px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .contact {
+      background: var(--accent);
+      color: white;
+      border-radius: 28px;
+      padding: 42px;
+    }
+    .contact p { color: #d8dee9; max-width: 650px; }
+    .contact .button { color: var(--text); margin-top: 12px; }
+    footer {
+      border-top: 1px solid var(--line);
+      text-align: center;
+      padding: 28px 24px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media (max-width: 760px) {
+      .nav-links { display: none; }
+      .hero { grid-template-columns: 1fr; padding-top: 56px; gap: 36px; }
+      .grid { grid-template-columns: 1fr; }
+      section { padding: 54px 20px; }
+      .contact { padding: 30px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">ANKIT KUMAR</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <div class="eyebrow">Personal + Career</div>
+      <h1>Ankit Kumar</h1>
+      <p class="tagline">Operations &amp; Logistics Professional</p>
+      <p class="intro">
+        Experienced in warehouse operations, material handling, logistics coordination,
+        safety and team leadership, with professional experience in the EV battery manufacturing environment.
+      </p>
+      <div class="buttons">
+        <a class="button primary" href="#contact">Connect with me</a>
+        <a class="button" href="https://www.linkedin.com/in/ankit-kumar-a233a4250/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <div class="portrait-wrap">
+      <img class="portrait" src="profile.jpg" alt="Ankit Kumar">
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">A little about my professional journey.</p>
+      <div class="card">
+        <p>
+          I’m Ankit Kumar, an operations and logistics professional based in Ontario, Canada.
+          My experience includes warehouse operations, material movement, logistics coordination,
+          safety compliance and supporting high-performance teams. I enjoy solving operational
+          challenges, improving workflows and helping teams work safely and efficiently.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2 class="section-title">Experience</h2>
+      <p class="section-subtitle">Professional areas I have worked in.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>EV Battery Manufacturing</h3>
+          <p>Experience supporting operations and material flow in a fast-paced EV battery manufacturing environment.</p>
+        </div>
+        <div class="card">
+          <h3>Warehouse &amp; Logistics</h3>
+          <p>Hands-on experience with warehouse operations, material handling, shipping, receiving and logistics coordination.</p>
+        </div>
+        <div class="card">
+          <h3>Team Leadership</h3>
+          <p>Experience coordinating teams and supporting safe, organized and efficient daily operations.</p>
+        </div>
+        <div class="card">
+          <h3>Safety &amp; Compliance</h3>
+          <p>Focused on safe material handling, workplace procedures and practical safety-first operations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">Skills &amp; Certifications</h2>
+      <p class="section-subtitle">Core strengths and professional qualifications.</p>
+      <div class="skills">
+        <span class="skill">Warehouse Operations</span>
+        <span class="skill">Logistics</span>
+        <span class="skill">Material Handling</span>
+        <span class="skill">Shipping &amp; Receiving</span>
+        <span class="skill">Team Leadership</span>
+        <span class="skill">Safety Compliance</span>
+        <span class="skill">Forklift Operation</span>
+        <span class="skill">WHMIS</span>
+        <span class="skill">First Aid</span>
+        <span class="skill">TMS</span>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact">
+        <h2 class="section-title">Let's Connect</h2>
+        <p>
+          For professional opportunities, networking or collaboration, connect with me on LinkedIn.
+        </p>
+        <a class="button" href="https://www.linkedin.com/in/ankit-kumar-a233a4250/" target="_blank" rel="noopener">
+          View LinkedIn Profile
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Ankit Kumar · Personal Website
+  </footer>
+</body>
+</html>
